@@ -173,8 +173,6 @@
     * 根據管理員或玩家身分給予專屬稱號與聊天窗的專屬顏色
   * [spray_control_cooldown](/Source_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
     * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
-  * [smd_set_player_name_cmd](/Source_插件/Fun_娛樂/smd_set_player_name_cmd): Player can set name via cmd + Admin can set other player's name
-    * 玩家自己改名 + 管理員幫玩家改名
   * [smd_tag_system](/Source_插件/Fun_娛樂/smd_tag_system): Give player tag name based on total time played in server
     * 根據玩家在伺服器內的遊玩時數給予對應的稱號
 </details>
@@ -900,10 +898,12 @@
 
 * <details><summary><b>遊戲事蹟</b></summary>
 
-  * 2019 L4D1 對抗夏季中國懷舊杯 - 協辦人
+  * 2019 L4D1 對抗夏季中國懷舊杯 - 主辦人
   * 2019 L4D1 對抗夏季中國懷舊杯 - 第二名 - IB隊伍成員
-  * 2022 L4D1 對抗懷舊世界盃 - 協辦人
-  * 2022 L4D1 對抗懷舊世界盃 - 第三名 - IB隊伍成員
+  * 2022 L4D1 對抗懷舊國際賽 - 主辦人
+  * 2022 L4D1 對抗懷舊國際賽 - 第三名 - IB隊伍成員
+  * 2026 L4D1 對抗紅包賽DNMS1 - 1st - Team 極限戰士
+  * 2026 L4D1 對抗紅包賽DNMS2 - Team 1998美眉
 </details>
 
 - - - -
@@ -968,10 +968,12 @@
 
 * <details><summary><b>Game History</b></summary>
 
-  * 2019 Nostalgic Summer China Cup - Assistant Director
-  * 2019 Nostalgic Summer China Cup - 2nd - Team IB
-  * 2022 Nostalgic Tournament - Assistant Director
-  * 2022 Nostalgic Tournament - 3rd - Team IB
+  * 2019 L4D1 Nostalgic Summer China Cup - Director
+  * 2019 L4D1 Nostalgic Summer China Cup - 2nd - Team IB
+  * 2022 L4D1 Nostalgic Tournament - Director
+  * 2022 L4D1 Nostalgic Tournament - 3rd - Team IB
+  * 2026 L4D1 DNMS1 - 1st - Team 極限戰士
+  * 2026 L4D1 DNMS2 - Team 1998美眉
 </details>
 
 - - - -

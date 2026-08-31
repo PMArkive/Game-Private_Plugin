@@ -1,5 +1,5 @@
 # Description | 內容
-When someone presses the elevator button or enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the evelator/CEDA Trailer, slay him
+When someone presses the elevator button or enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the elevator/CEDA Trailer, slay him
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
@@ -22,8 +22,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* When someone presses the elevator button, a timer will display how many time left. If a player is not inside the evelator Trailer, slay him
-	* When someone enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the CEDA Trailer, slay him
+	* When someone presses the elevator button, a timer will display how many time left.
+	* When someone enters the CEDA Trailer, a timer will display how many time left.
+	* When time is up, this plugin teleports everyone outside into the elevator
+	* Once time is up, it deals damage to the player every second if they are still not inside the elevator
 	* Support offical maps. 
 	* If wanna support custom maps, please find entity via stripper extension and modify data: [data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
 		* Manual in this file, click for more details...
@@ -66,7 +68,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* When time is up, all survivor bots are teleported into the elevator
 
 	* v1.1 (2022-11-15)
-		* Cause the damage to incapacitated players outside the evelator/CEDA Trailer
+		* Cause the damage to incapacitated players outside the elevator/CEDA Trailer
 
 	* v1.0
 		* Initial Release
@@ -79,10 +81,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 原理
 	* 第一位玩家按下電梯按鈕時，開始倒數計時
 	* 第一位玩家進入CEDA大拖車（教區第二關），開始倒數計時
-	* 當時間到之後，還在外面的玩家將處在中毒狀態，每秒受到傷害
-		* 也可以改成先傳送玩家到電梯內
-	* 目前支援所有官方地圖
-	* 包括但不限於電梯、CEDA大拖車、船隻
+	* 當時間到之後，傳送玩家到電梯內
+	* 還跑出去外面的玩家將處在中毒狀態，每秒受到傷害
+	* 目前支援所有官方地圖，包括但不限於電梯、CEDA大拖車、船隻
 	* 三方圖也支援，但必須利用stripper_dump尋找三方圖的電梯實體填寫文件[data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
 		* 內有中文說明，可點擊查看
 		* 請自行利用stripper_dump尋找地圖上的電梯

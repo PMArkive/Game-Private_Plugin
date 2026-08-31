@@ -275,7 +275,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 友傷黑槍隊友、滅團、倒地、死亡...，扣除經驗值
 	* 在聊天框的玩家名子前顯示Rank頭銜名稱
 	* 輸入```!rank```隨時查看自己或他人資料
-	* 可自訂Rank名稱與顏色，位於[configs/l4d_ranking_system_V3.cfg](configs/l4d_ranking_system_V3.cfg)
+	* 可自訂Rank名稱與顏色，位於[configs/l4d_ranking_system.cfg](configs/l4d_ranking_system.cfg)
+		* 頭銜名稱可以寫中文
 		* 內有中文說明，可點擊查看
 	* 管理員可以輸入 ```!tag``` 修改其他玩家的Rank名稱
 	<br/>![zho/l4d_ranking_system_3](image/zho/l4d_ranking_system_3.jpg)
